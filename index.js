@@ -63,7 +63,6 @@ if (item != cart[item]) {
 }
 
 function placeOrder(cardNumber) {
-   var total = total();
    
    if(cardNumber) {
      cart = [];
